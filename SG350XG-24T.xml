@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.2</version>
-    <date>2019-08-05T07:28:40Z</date>
+    <date>2019-08-05T07:32:22Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>DGS-3120-24TC</template>
-            <name>DGS-3120-24TC</name>
+            <template>SG350XG-24T</template>
+            <name>SG350XG-24T</name>
             <description/>
             <groups>
                 <group>
@@ -23,9 +23,9 @@
                     <name>CPU Usage</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.171.12.1.1.6.1.0</snmp_oid>
+                    <snmp_oid>.1.3.6.1.4.1.9.6.1.101.1.7.0</snmp_oid>
                     <key>cpuUsage</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -75,12 +75,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 1</name>
+                    <name>Errors Rx port XGE 1</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.1</snmp_oid>
-                    <key>ifInErrors.1</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10101</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -137,12 +137,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 2</name>
+                    <name>Errors Rx port XGE 2</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.2</snmp_oid>
-                    <key>ifInErrors.2</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10102</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -199,12 +199,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 3</name>
+                    <name>Errors Rx port XGE 3</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.3</snmp_oid>
-                    <key>ifInErrors.3</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10103</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -261,12 +261,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 4</name>
+                    <name>Errors Rx port XGE 4</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.4</snmp_oid>
-                    <key>ifInErrors.4</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10104</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -323,12 +323,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 5</name>
+                    <name>Errors Rx port XGE 5</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.5</snmp_oid>
-                    <key>ifInErrors.5</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10105</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -385,12 +385,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 6</name>
+                    <name>Errors Rx port XGE 6</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.6</snmp_oid>
-                    <key>ifInErrors.6</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10106</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -447,12 +447,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 7</name>
+                    <name>Errors Rx port XGE 7</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.7</snmp_oid>
-                    <key>ifInErrors.7</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10107</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -509,12 +509,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 8</name>
+                    <name>Errors Rx port XGE 8</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.8</snmp_oid>
-                    <key>ifInErrors.8</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10108</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -571,12 +571,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 9</name>
+                    <name>Errors Rx port XGE 9</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.9</snmp_oid>
-                    <key>ifInErrors.9</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10109</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -633,12 +633,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 10</name>
+                    <name>Errors Rx port XGE 10</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.10</snmp_oid>
-                    <key>ifInErrors.10</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10110</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -695,12 +695,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 11</name>
+                    <name>Errors Rx port XGE 11</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.11</snmp_oid>
-                    <key>ifInErrors.11</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10111</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -757,12 +757,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 12</name>
+                    <name>Errors Rx port XGE 12</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.12</snmp_oid>
-                    <key>ifInErrors.12</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10112</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -819,12 +819,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 13</name>
+                    <name>Errors Rx port XGE 13</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.13</snmp_oid>
-                    <key>ifInErrors.13</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10113</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -881,12 +881,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 14</name>
+                    <name>Errors Rx port XGE 14</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.14</snmp_oid>
-                    <key>ifInErrors.14</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10114</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -943,12 +943,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 15</name>
+                    <name>Errors Rx port XGE 15</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.15</snmp_oid>
-                    <key>ifInErrors.15</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10115</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1005,12 +1005,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 16</name>
+                    <name>Errors Rx port XGE 16</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.16</snmp_oid>
-                    <key>ifInErrors.16</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10116</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1067,12 +1067,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 17</name>
+                    <name>Errors Rx port XGE 17</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.17</snmp_oid>
-                    <key>ifInErrors.17</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10117</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1129,12 +1129,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 18</name>
+                    <name>Errors Rx port XGE 18</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.18</snmp_oid>
-                    <key>ifInErrors.18</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10118</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1191,12 +1191,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 19</name>
+                    <name>Errors Rx port XGE 19</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.19</snmp_oid>
-                    <key>ifInErrors.19</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10119</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1253,12 +1253,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 20</name>
+                    <name>Errors Rx port XGE 20</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.20</snmp_oid>
-                    <key>ifInErrors.20</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10120</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1315,12 +1315,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 21</name>
+                    <name>Errors Rx port XGE 21</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.21</snmp_oid>
-                    <key>ifInErrors.21</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10121</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1377,12 +1377,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 22</name>
+                    <name>Errors Rx port XGE 22</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.22</snmp_oid>
-                    <key>ifInErrors.22</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10122</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1439,12 +1439,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 23</name>
+                    <name>Errors Rx port XGE 23</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.23</snmp_oid>
-                    <key>ifInErrors.23</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10123</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1501,12 +1501,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Rx port 24</name>
+                    <name>Errors Rx port XGE 24</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.14.24</snmp_oid>
-                    <key>ifInErrors.24</key>
-                    <delay>60</delay>
+                    <key>ifInErrors.10124</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1563,12 +1563,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 1</name>
+                    <name>Bytes Rx port XGE 1</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.1</snmp_oid>
-                    <key>ifInOctets.1</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10101</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1631,12 +1631,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 2</name>
+                    <name>Bytes Rx port XGE 2</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.2</snmp_oid>
-                    <key>ifInOctets.2</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10102</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1699,12 +1699,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 3</name>
+                    <name>Bytes Rx port XGE 3</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.3</snmp_oid>
-                    <key>ifInOctets.3</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10103</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1767,12 +1767,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 4</name>
+                    <name>Bytes Rx port XGE 4</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.4</snmp_oid>
-                    <key>ifInOctets.4</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10104</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1835,12 +1835,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 5</name>
+                    <name>Bytes Rx port XGE 5</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.5</snmp_oid>
-                    <key>ifInOctets.5</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10105</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1903,12 +1903,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 6</name>
+                    <name>Bytes Rx port XGE 6</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.6</snmp_oid>
-                    <key>ifInOctets.6</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10106</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -1971,12 +1971,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 7</name>
+                    <name>Bytes Rx port XGE 7</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.7</snmp_oid>
-                    <key>ifInOctets.7</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10107</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2039,12 +2039,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 8</name>
+                    <name>Bytes Rx port XGE 8</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.8</snmp_oid>
-                    <key>ifInOctets.8</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10108</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2107,12 +2107,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 9</name>
+                    <name>Bytes Rx port XGE 9</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.9</snmp_oid>
-                    <key>ifInOctets.9</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10109</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2175,12 +2175,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 10</name>
+                    <name>Bytes Rx port XGE 10</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.10</snmp_oid>
-                    <key>ifInOctets.10</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10110</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2243,12 +2243,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 11</name>
+                    <name>Bytes Rx port XGE 11</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.11</snmp_oid>
-                    <key>ifInOctets.11</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10111</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2311,12 +2311,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 12</name>
+                    <name>Bytes Rx port XGE 12</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.12</snmp_oid>
-                    <key>ifInOctets.12</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10112</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2379,12 +2379,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 13</name>
+                    <name>Bytes Rx port XGE 13</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.13</snmp_oid>
-                    <key>ifInOctets.13</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10113</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2447,12 +2447,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 14</name>
+                    <name>Bytes Rx port XGE 14</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.14</snmp_oid>
-                    <key>ifInOctets.14</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10114</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2515,12 +2515,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 15</name>
+                    <name>Bytes Rx port XGE 15</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.15</snmp_oid>
-                    <key>ifInOctets.15</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10115</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2583,12 +2583,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 16</name>
+                    <name>Bytes Rx port XGE 16</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.16</snmp_oid>
-                    <key>ifInOctets.16</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10116</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2651,12 +2651,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 17</name>
+                    <name>Bytes Rx port XGE 17</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.17</snmp_oid>
-                    <key>ifInOctets.17</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10117</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2719,12 +2719,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 18</name>
+                    <name>Bytes Rx port XGE 18</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.18</snmp_oid>
-                    <key>ifInOctets.18</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10118</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2787,12 +2787,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 19</name>
+                    <name>Bytes Rx port XGE 19</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.19</snmp_oid>
-                    <key>ifInOctets.19</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10119</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2855,12 +2855,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 20</name>
+                    <name>Bytes Rx port XGE 20</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.20</snmp_oid>
-                    <key>ifInOctets.20</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10120</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2923,12 +2923,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 21</name>
+                    <name>Bytes Rx port XGE 21</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.21</snmp_oid>
-                    <key>ifInOctets.21</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10121</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -2991,12 +2991,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 22</name>
+                    <name>Bytes Rx port XGE 22</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.22</snmp_oid>
-                    <key>ifInOctets.22</key>
-                    <delay>60</delay>
+                    <key>ifInOctets.10122</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3059,12 +3059,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 23</name>
+                    <name>Bytes Rx port XGE 23</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.23</snmp_oid>
-                    <key>ifInOctets.23</key>
-                    <delay>30</delay>
+                    <key>ifInOctets.10123</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3127,12 +3127,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Rx port 24</name>
+                    <name>Bytes Rx port XGE 24</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.10.24</snmp_oid>
-                    <key>ifInOctets.24</key>
-                    <delay>30</delay>
+                    <key>ifInOctets.10124</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3195,12 +3195,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 1</name>
+                    <name>Errors Tx port XGE 1</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.1</snmp_oid>
-                    <key>ifOutErrors.1</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10101</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3257,12 +3257,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 2</name>
+                    <name>Errors Tx port XGE 2</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.2</snmp_oid>
-                    <key>ifOutErrors.2</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10102</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3319,12 +3319,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 3</name>
+                    <name>Errors Tx port XGE 3</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.3</snmp_oid>
-                    <key>ifOutErrors.3</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10103</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3381,12 +3381,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 4</name>
+                    <name>Errors Tx port XGE 4</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.4</snmp_oid>
-                    <key>ifOutErrors.4</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10104</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3443,12 +3443,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 5</name>
+                    <name>Errors Tx port XGE 5</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.5</snmp_oid>
-                    <key>ifOutErrors.5</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10105</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3505,12 +3505,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 6</name>
+                    <name>Errors Tx port XGE 6</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.6</snmp_oid>
-                    <key>ifOutErrors.6</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10106</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3567,12 +3567,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 7</name>
+                    <name>Errors Tx port XGE 7</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.7</snmp_oid>
-                    <key>ifOutErrors.7</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10107</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3629,12 +3629,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 8</name>
+                    <name>Errors Tx port XGE 8</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.8</snmp_oid>
-                    <key>ifOutErrors.8</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10108</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3691,12 +3691,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 9</name>
+                    <name>Errors Tx port XGE 9</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.9</snmp_oid>
-                    <key>ifOutErrors.9</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10109</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3753,12 +3753,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 10</name>
+                    <name>Errors Tx port XGE 10</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.10</snmp_oid>
-                    <key>ifOutErrors.10</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10110</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3815,12 +3815,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 11</name>
+                    <name>Errors Tx port XGE 11</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.11</snmp_oid>
-                    <key>ifOutErrors.11</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10111</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3877,12 +3877,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 12</name>
+                    <name>Errors Tx port XGE 12</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.12</snmp_oid>
-                    <key>ifOutErrors.12</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10112</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -3939,12 +3939,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 13</name>
+                    <name>Errors Tx port XGE 13</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.13</snmp_oid>
-                    <key>ifOutErrors.13</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10113</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4001,12 +4001,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 14</name>
+                    <name>Errors Tx port XGE 14</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.14</snmp_oid>
-                    <key>ifOutErrors.14</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10114</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4063,12 +4063,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 15</name>
+                    <name>Errors Tx port XGE 15</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.15</snmp_oid>
-                    <key>ifOutErrors.15</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10115</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4125,12 +4125,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 16</name>
+                    <name>Errors Tx port XGE 16</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.16</snmp_oid>
-                    <key>ifOutErrors.16</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10116</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4187,12 +4187,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 17</name>
+                    <name>Errors Tx port XGE 17</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.17</snmp_oid>
-                    <key>ifOutErrors.17</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10117</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4249,12 +4249,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 18</name>
+                    <name>Errors Tx port XGE 18</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.18</snmp_oid>
-                    <key>ifOutErrors.18</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10118</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4311,12 +4311,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 19</name>
+                    <name>Errors Tx port XGE 19</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.19</snmp_oid>
-                    <key>ifOutErrors.19</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10119</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4373,12 +4373,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 20</name>
+                    <name>Errors Tx port XGE 20</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.20</snmp_oid>
-                    <key>ifOutErrors.20</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10120</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4435,12 +4435,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 21</name>
+                    <name>Errors Tx port XGE 21</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.21</snmp_oid>
-                    <key>ifOutErrors.21</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10121</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4497,12 +4497,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 22</name>
+                    <name>Errors Tx port XGE 22</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.22</snmp_oid>
-                    <key>ifOutErrors.22</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10122</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4559,12 +4559,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 23</name>
+                    <name>Errors Tx port XGE 23</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.23</snmp_oid>
-                    <key>ifOutErrors.23</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10123</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4621,12 +4621,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Errors Tx port 24</name>
+                    <name>Errors Tx port XGE 24</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.20.24</snmp_oid>
-                    <key>ifOutErrors.24</key>
-                    <delay>60</delay>
+                    <key>ifOutErrors.10124</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4683,12 +4683,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 1</name>
+                    <name>Bytes Tx port XGE 1</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.1</snmp_oid>
-                    <key>ifOutOctets.1</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10101</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4751,12 +4751,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 2</name>
+                    <name>Bytes Tx port XGE 2</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.2</snmp_oid>
-                    <key>ifOutOctets.2</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10102</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4819,12 +4819,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 3</name>
+                    <name>Bytes Tx port XGE 3</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.3</snmp_oid>
-                    <key>ifOutOctets.3</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10103</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4887,12 +4887,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 4</name>
+                    <name>Bytes Tx port XGE 4</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.4</snmp_oid>
-                    <key>ifOutOctets.4</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10104</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -4955,12 +4955,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 5</name>
+                    <name>Bytes Tx port XGE 5</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.5</snmp_oid>
-                    <key>ifOutOctets.5</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10105</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5023,12 +5023,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 6</name>
+                    <name>Bytes Tx port XGE 6</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.6</snmp_oid>
-                    <key>ifOutOctets.6</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10106</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5091,12 +5091,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 7</name>
+                    <name>Bytes Tx port XGE 7</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.7</snmp_oid>
-                    <key>ifOutOctets.7</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10107</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5159,12 +5159,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 8</name>
+                    <name>Bytes Tx port XGE 8</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.8</snmp_oid>
-                    <key>ifOutOctets.8</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10108</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5227,12 +5227,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 9</name>
+                    <name>Bytes Tx port XGE 9</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.9</snmp_oid>
-                    <key>ifOutOctets.9</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10109</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5295,12 +5295,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 10</name>
+                    <name>Bytes Tx port XGE 10</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.10</snmp_oid>
-                    <key>ifOutOctets.10</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10110</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5363,12 +5363,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 11</name>
+                    <name>Bytes Tx port XGE 11</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.11</snmp_oid>
-                    <key>ifOutOctets.11</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10111</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5431,12 +5431,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 12</name>
+                    <name>Bytes Tx port XGE 12</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.12</snmp_oid>
-                    <key>ifOutOctets.12</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10112</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5499,12 +5499,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 13</name>
+                    <name>Bytes Tx port XGE 13</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.13</snmp_oid>
-                    <key>ifOutOctets.13</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10113</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5567,12 +5567,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 14</name>
+                    <name>Bytes Tx port XGE 14</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.14</snmp_oid>
-                    <key>ifOutOctets.14</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10114</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5635,12 +5635,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 15</name>
+                    <name>Bytes Tx port XGE 15</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.15</snmp_oid>
-                    <key>ifOutOctets.15</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10115</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5703,12 +5703,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 16</name>
+                    <name>Bytes Tx port XGE 16</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.16</snmp_oid>
-                    <key>ifOutOctets.16</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10116</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5771,12 +5771,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 17</name>
+                    <name>Bytes Tx port XGE 17</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.17</snmp_oid>
-                    <key>ifOutOctets.17</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10117</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5839,12 +5839,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 18</name>
+                    <name>Bytes Tx port XGE 18</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.18</snmp_oid>
-                    <key>ifOutOctets.18</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10118</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5907,12 +5907,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 19</name>
+                    <name>Bytes Tx port XGE 19</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.19</snmp_oid>
-                    <key>ifOutOctets.19</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10119</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -5975,12 +5975,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 20</name>
+                    <name>Bytes Tx port XGE 20</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.20</snmp_oid>
-                    <key>ifOutOctets.20</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10120</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -6043,12 +6043,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 21</name>
+                    <name>Bytes Tx port XGE 21</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.21</snmp_oid>
-                    <key>ifOutOctets.21</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10121</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -6111,12 +6111,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 22</name>
+                    <name>Bytes Tx port XGE 22</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.22</snmp_oid>
-                    <key>ifOutOctets.22</key>
-                    <delay>60</delay>
+                    <key>ifOutOctets.10122</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -6179,12 +6179,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 23</name>
+                    <name>Bytes Tx port XGE 23</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.23</snmp_oid>
-                    <key>ifOutOctets.23</key>
-                    <delay>30</delay>
+                    <key>ifOutOctets.10123</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -6247,12 +6247,12 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Bytes Tx port 24</name>
+                    <name>Bytes Tx port XGE 24</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>1.3.6.1.2.1.2.2.1.16.24</snmp_oid>
-                    <key>ifOutOctets.24</key>
-                    <delay>30</delay>
+                    <key>ifOutOctets.10124</key>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -6318,12 +6318,12 @@
                     <name>Memory usage</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
-                    <snmp_oid>.1.3.6.1.4.1.171.12.1.1.9.1.3.1</snmp_oid>
+                    <snmp_oid>1.3.6.1.4.1.9.9.48.1.1.1.5.1</snmp_oid>
                     <key>memoryUsage</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
-                    <status>0</status>
+                    <status>1</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units>b</units>
@@ -6373,15 +6373,15 @@
                     <name>Temperature status</name>
                     <type>4</type>
                     <snmp_community>terrasoft+</snmp_community>
-                    <snmp_oid>1.3.6.1.4.1.171.12.11.1.8.1.2.1</snmp_oid>
+                    <snmp_oid>.1.3.6.1.4.1.9.5.1.2.13.0</snmp_oid>
                     <key>temperatureStatus</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>7d</history>
                     <trends>365d</trends>
-                    <status>0</status>
+                    <status>1</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>°C</units>
+                    <units/>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -6430,7 +6430,7 @@
                     <snmp_community>terrasoft+</snmp_community>
                     <snmp_oid>.1.3.6.1.2.1.1.3.0</snmp_oid>
                     <key>Uptime</key>
-                    <delay>60</delay>
+                    <delay>120</delay>
                     <history>90d</history>
                     <trends>365d</trends>
                     <status>0</status>
@@ -6497,7 +6497,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{DGS-3120-24TC:cpuUsage.last(0)}&gt;80</expression>
+            <expression>{SG350XG-24T:cpuUsage.last(0)}&gt;80</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>CPU load is too high on {HOSTNAME}</name>
@@ -6513,15 +6513,15 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:memoryUsage.last(0)}&gt;131070</expression>
+            <expression>{SG350XG-24T:memoryUsage.last(0)}&gt;0</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Memory usage is too high on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
-            <status>1</status>
-            <priority>2</priority>
+            <status>0</status>
+            <priority>3</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -6529,10 +6529,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.1.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.1.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10101.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10101.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 1 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 1 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6545,10 +6545,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.2.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.2.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10102.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10102.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 2 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 2 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6561,10 +6561,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.3.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.3.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10103.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10103.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 3 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 3 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6577,10 +6577,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.4.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.4.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10104.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10104.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 4 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 4 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6593,10 +6593,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.5.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.5.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10105.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10105.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 5 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 5 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6609,10 +6609,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.6.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.6.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10106.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10106.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 6 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 6 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6625,10 +6625,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.7.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.7.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10107.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10107.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 7 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 7 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6641,10 +6641,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.8.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.8.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10108.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10108.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 8 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 8 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6657,10 +6657,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.9.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.9.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10109.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10109.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 9 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 9 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6673,10 +6673,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.10.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.10.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10110.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10110.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 10 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 10 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6689,10 +6689,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.11.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.11.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10111.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10111.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 11 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 11 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6705,10 +6705,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.12.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.12.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10112.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10112.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 12 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 12 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6721,10 +6721,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.13.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.13.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10113.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10113.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 13 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 13 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6737,10 +6737,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.14.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.14.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10114.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10114.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 14 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 14 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6753,10 +6753,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.15.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.15.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10115.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10115.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 15 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 15 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6769,10 +6769,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.16.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.16.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10116.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10116.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 16 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 16 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6785,10 +6785,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.17.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.17.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10117.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10117.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 17 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 17 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6801,10 +6801,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.18.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.18.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10118.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10118.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 18 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 18 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6817,10 +6817,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.19.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.19.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10119.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10119.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 19 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 19 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6833,10 +6833,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.20.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.20.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10120.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10120.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 20 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 20 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6849,10 +6849,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.21.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.21.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10121.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10121.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 21 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 21 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6865,10 +6865,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.22.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.22.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10122.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10122.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 22 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 22 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6881,10 +6881,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.23.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.23.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10123.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10123.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 23 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 23 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6897,10 +6897,10 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:ifInErrors.24.last(0)}&gt;10 or {DGS-3120-24TC:ifOutErrors.24.last(0)}&gt;10</expression>
+            <expression>{SG350XG-24T:ifInErrors.10124.last(0)}&gt;10 or {SG350XG-24T:ifOutErrors.10124.last(0)}&gt;10</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>Port 24 errors detected on {HOSTNAME}</name>
+            <name>Port XGE 24 errors detected on {HOSTNAME}</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
@@ -6913,7 +6913,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:temperatureStatus.last(0)}=49</expression>
+            <expression>{SG350XG-24T:temperatureStatus.last(0)}=3</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Temperature critical on {HOSTNAME}</name>
@@ -6929,7 +6929,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:temperatureStatus.last(0)}&gt;47</expression>
+            <expression>{SG350XG-24T:temperatureStatus.last(0)}&gt;1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Temperature warning on {HOSTNAME}</name>
@@ -6945,7 +6945,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{DGS-3120-24TC:Uptime.last(0)}&lt;600</expression>
+            <expression>{SG350XG-24T:Uptime.last(0)}&lt;600</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>{HOSTNAME} has just been restarted</name>
@@ -6988,7 +6988,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
+                        <host>SG350XG-24T</host>
                         <key>memoryUsage</key>
                     </item>
                 </graph_item>
@@ -7000,14 +7000,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
+                        <host>SG350XG-24T</host>
                         <key>cpuUsage</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 1 stats</name>
+            <name>Port XGE 1 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7032,8 +7032,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.1</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10101</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7044,8 +7044,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.1</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10101</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7056,8 +7056,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.1</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10101</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7068,14 +7068,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.1</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10101</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 2 stats</name>
+            <name>Port XGE 2 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7100,8 +7100,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.2</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10102</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7112,8 +7112,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.2</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10102</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7124,8 +7124,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.2</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10102</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7136,14 +7136,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.2</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10102</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 3 stats</name>
+            <name>Port XGE 3 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7168,8 +7168,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.3</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10103</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7180,8 +7180,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.3</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10103</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7192,8 +7192,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.3</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10103</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7204,14 +7204,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.3</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10103</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 4 stats</name>
+            <name>Port XGE 4 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7236,8 +7236,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.4</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10104</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7248,8 +7248,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.4</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10104</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7260,8 +7260,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.4</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10104</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7272,14 +7272,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.4</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10104</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 5 stats</name>
+            <name>Port XGE 5 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7304,8 +7304,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.5</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10105</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7316,8 +7316,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.5</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10105</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7328,8 +7328,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.5</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10105</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7340,14 +7340,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.5</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10105</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 6 stats</name>
+            <name>Port XGE 6 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7372,8 +7372,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.6</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10106</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7384,8 +7384,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.6</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10106</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7396,8 +7396,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.6</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10106</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7408,14 +7408,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.6</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10106</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 7 stats</name>
+            <name>Port XGE 7 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7440,8 +7440,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.7</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10107</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7452,8 +7452,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.7</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10107</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7464,8 +7464,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.7</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10107</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7476,14 +7476,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.7</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10107</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 8 stats</name>
+            <name>Port XGE 8 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7508,8 +7508,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.8</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10108</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7520,8 +7520,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.8</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10108</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7532,8 +7532,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.8</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10108</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7544,14 +7544,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.8</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10108</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 9 stats</name>
+            <name>Port XGE 9 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7576,8 +7576,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.9</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10109</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7588,8 +7588,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.9</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10109</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7600,8 +7600,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.9</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10109</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7612,14 +7612,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.9</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10109</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 10 stats</name>
+            <name>Port XGE 10 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7644,8 +7644,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.10</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10110</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7656,8 +7656,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.10</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10110</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7668,8 +7668,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.10</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10110</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7680,14 +7680,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.10</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10110</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 11 stats</name>
+            <name>Port XGE 11 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7712,8 +7712,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.11</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10111</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7724,8 +7724,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.11</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10111</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7736,8 +7736,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.11</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10111</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7748,14 +7748,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.11</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10111</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 12 stats</name>
+            <name>Port XGE 12 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7780,8 +7780,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.12</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10112</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7792,8 +7792,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.12</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10112</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7804,8 +7804,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.12</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10112</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7816,14 +7816,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.12</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10112</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 13 stats</name>
+            <name>Port XGE 13 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7848,8 +7848,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.13</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10113</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7860,8 +7860,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.13</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10113</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7872,8 +7872,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.13</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10113</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7884,14 +7884,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.13</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10113</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 14 stats</name>
+            <name>Port XGE 14 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7916,8 +7916,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.14</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10114</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7928,8 +7928,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.14</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10114</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7940,8 +7940,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.14</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10114</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7952,14 +7952,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.14</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10114</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 15 stats</name>
+            <name>Port XGE 15 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -7984,8 +7984,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.15</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10115</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -7996,8 +7996,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.15</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10115</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8008,8 +8008,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.15</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10115</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8020,14 +8020,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.15</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10115</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 16 stats</name>
+            <name>Port XGE 16 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8052,8 +8052,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.16</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10116</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8064,8 +8064,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.16</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10116</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8076,8 +8076,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.16</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10116</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8088,14 +8088,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.16</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10116</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 17 stats</name>
+            <name>Port XGE 17 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8120,8 +8120,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.17</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10117</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8132,8 +8132,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.17</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10117</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8144,8 +8144,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.17</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10117</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8156,14 +8156,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.17</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10117</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 18 stats</name>
+            <name>Port XGE 18 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8188,8 +8188,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.18</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10118</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8200,8 +8200,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.18</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10118</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8212,8 +8212,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.18</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10118</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8224,14 +8224,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.18</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10118</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 19 stats</name>
+            <name>Port XGE 19 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8256,8 +8256,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.19</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10119</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8268,8 +8268,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.19</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10119</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8280,8 +8280,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.19</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10119</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8292,14 +8292,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.19</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10119</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 20 stats</name>
+            <name>Port XGE 20 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8324,8 +8324,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.20</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10120</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8336,8 +8336,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.20</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10120</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8348,8 +8348,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.20</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10120</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8360,14 +8360,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.20</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10120</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 21 stats</name>
+            <name>Port XGE 21 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8392,8 +8392,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.21</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10121</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8404,8 +8404,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.21</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10121</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8416,8 +8416,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.21</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10121</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8428,14 +8428,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.21</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10121</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 22 stats</name>
+            <name>Port XGE 22 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8460,8 +8460,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.22</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10122</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8472,8 +8472,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.22</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10122</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8484,8 +8484,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.22</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10122</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8496,14 +8496,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.22</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10122</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 23 stats</name>
+            <name>Port XGE 23 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8528,8 +8528,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.23</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10123</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8540,8 +8540,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.23</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10123</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8552,8 +8552,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.23</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10123</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8564,14 +8564,14 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.23</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10123</key>
                     </item>
                 </graph_item>
             </graph_items>
         </graph>
         <graph>
-            <name>Port 24 stats</name>
+            <name>Port XGE 24 stats</name>
             <width>900</width>
             <height>200</height>
             <yaxismin>0.0000</yaxismin>
@@ -8596,8 +8596,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutOctets.24</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutOctets.10124</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8608,8 +8608,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInOctets.24</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInOctets.10124</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8620,8 +8620,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifOutErrors.24</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifOutErrors.10124</key>
                     </item>
                 </graph_item>
                 <graph_item>
@@ -8632,72 +8632,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>ifInErrors.24</key>
-                    </item>
-                </graph_item>
-            </graph_items>
-        </graph>
-        <graph>
-            <name>Temperature</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>0</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
-            <graph_items>
-                <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>1A7C11</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>temperatureStatus</key>
-                    </item>
-                </graph_item>
-            </graph_items>
-        </graph>
-        <graph>
-            <name>Uptime</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>0</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
-            <graph_items>
-                <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>1A7C11</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>DGS-3120-24TC</host>
-                        <key>Uptime</key>
+                        <host>SG350XG-24T</host>
+                        <key>ifInErrors.10124</key>
                     </item>
                 </graph_item>
             </graph_items>
